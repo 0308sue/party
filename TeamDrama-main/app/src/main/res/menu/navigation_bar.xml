@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Mainpage"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="HOME" />
+    <item
+        android:id="@+id/Seachpage"
+        android:enabled="true"
+        android:icon="@drawable/mirrorball"
+        android:title="Party" />
+    <item
+        android:id="@+id/Mypage"
+        android:enabled="true"
+        android:icon="@drawable/my"
+        android:title="MY" />
+</menu>

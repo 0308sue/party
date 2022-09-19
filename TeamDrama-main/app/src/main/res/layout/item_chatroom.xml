@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp">
+
+    <ImageView
+        android:id="@+id/chatitem_imageview_roomType"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:src="@drawable/hide"/>
+    <TextView
+        android:id="@+id/chatitem_textview_openDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="3dp"
+        android:text="0000.00.00"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/light"
+        android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/chatitem_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="채팅방 타이틀"
+            android:textColor="@color/yellow"
+            android:fontFamily="@font/bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/chatitem_textview_tvScheduleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="방송제목"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/chatitem_textview_lastMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chatitem_textview_title"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/bold"
+            android:text="마지막 메시지"
+            android:textColor="@color/grey" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/light"/>
+</LinearLayout>

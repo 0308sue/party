@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+
+        <TextView
+            android:id="@+id/programep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/regular"
+            android:text="00:51"
+            android:textColor="@color/yellow"
+            android:layout_gravity="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/programname"
+            android:textColor="@color/light"
+            android:fontFamily="@font/regular"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:text="프로그램 명"/>
+
+        <ImageView
+            android:id="@+id/prgramdetails"
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitEnd"
+            android:src="@drawable/information"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/light"/>
+
+
+</LinearLayout>
